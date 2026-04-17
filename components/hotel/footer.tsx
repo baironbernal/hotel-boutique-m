@@ -136,7 +136,7 @@ export function Footer() {
         <p className="text-[0.75rem]">
           &copy; 2026 Hotel M Boutique. Todos los derechos reservados.
         </p>
-        <div className="flex gap-2.5">
+        <div className="flex flex-wrap justify-center md:justify-end gap-2">
           <span className="px-3 py-1.5 border border-white/10 rounded-sm text-[0.65rem] font-bold tracking-[0.1em] uppercase text-white/35">
             TripAdvisor 5&#9733;
           </span>

@@ -44,7 +44,7 @@ export function Gallery() {
     <>
       <section ref={sectionRef} id="gallery" className="bg-dark pt-0">
         {/* Intro */}
-        <div className="bg-navy px-5 md:px-8 lg:px-20 py-12 md:py-14 pb-0 flex flex-col md:flex-row justify-between items-start md:items-end gap-4">
+        <div className="bg-navy px-5 md:px-8 lg:px-20 pt-12 md:pt-14 pb-10 md:pb-0 flex flex-col md:flex-row justify-between items-start md:items-end gap-5 md:gap-4">
           <div>
             <span className="fade-in text-xs font-semibold tracking-[0.3em] uppercase text-[#0E79BD] mb-3 block">
               Tour Visual
