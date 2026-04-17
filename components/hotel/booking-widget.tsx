@@ -46,7 +46,7 @@ export function BookingWidget() {
             type="date"
             value={checkIn}
             onChange={(e) => handleCheckInChange(e.target.value)}
-            className="border border-white/12 rounded-sm px-3.5 py-2.5 font-sans text-sm text-white bg-white/6 outline-none focus:border-[#0E79BD] transition-colors duration-200 [color-scheme:dark] [-webkit-text-fill-color:white]"
+            className="border border-white/12 w-full rounded-sm px-3.5 py-2.5 font-sans text-sm text-white bg-white/6 outline-none focus:border-[#0E79BD] transition-colors duration-200 [color-scheme:dark] [-webkit-text-fill-color:white]"
           />
         </div>
 
@@ -62,7 +62,7 @@ export function BookingWidget() {
             value={checkOut}
             onChange={(e) => setCheckOut(e.target.value)}
             min={checkIn}
-            className="border border-white/12 rounded-sm px-3.5 py-2.5 font-sans text-sm text-white bg-white/6 outline-none focus:border-[#0E79BD] transition-colors duration-200 [color-scheme:dark] [-webkit-text-fill-color:white]"
+            className="border border-white/12 w-full rounded-sm px-3.5 py-2.5 font-sans text-sm text-white bg-white/6 outline-none focus:border-[#0E79BD] transition-colors duration-200 [color-scheme:dark] [-webkit-text-fill-color:white]"
           />
         </div>
 
@@ -76,7 +76,7 @@ export function BookingWidget() {
           <select
             value={guests}
             onChange={(e) => setGuests(e.target.value)}
-            className="border border-white/12 rounded-sm px-3.5 py-2.5 pr-9 font-sans text-sm text-white bg-white/6 outline-none focus:border-[#0E79BD] transition-colors duration-200 appearance-none bg-[url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%228%22%20viewBox%3D%220%200%2012%208%22%3E%3Cpath%20d%3D%22M1%201l5%205%205-5%22%20stroke%3D%22rgba(255%2C255%2C255%2C0.5)%22%20stroke-width%3D%221.5%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E')] bg-no-repeat bg-[right_14px_center]"
+            className="border border-white/12 w-full rounded-sm px-3.5 py-2.5 pr-9 font-sans text-sm text-white bg-white/6 outline-none focus:border-[#0E79BD] transition-colors duration-200 appearance-none bg-[url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%228%22%20viewBox%3D%220%200%2012%208%22%3E%3Cpath%20d%3D%22M1%201l5%205%205-5%22%20stroke%3D%22rgba(255%2C255%2C255%2C0.5)%22%20stroke-width%3D%221.5%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E')] bg-no-repeat bg-[right_14px_center]"
           >
             <option value="1 Adulto" className="bg-dark text-white">1 Adulto</option>
             <option value="2 Adultos" className="bg-dark text-white">2 Adultos</option>
@@ -95,7 +95,7 @@ export function BookingWidget() {
           <select
             value={roomType}
             onChange={(e) => setRoomType(e.target.value)}
-            className="border border-white/12 rounded-sm px-3.5 py-2.5 pr-9 font-sans text-sm text-white bg-white/6 outline-none focus:border-[#0E79BD] transition-colors duration-200 appearance-none bg-[url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%228%22%20viewBox%3D%220%200%2012%208%22%3E%3Cpath%20d%3D%22M1%201l5%205%205-5%22%20stroke%3D%22rgba(255%2C255%2C255%2C0.5)%22%20stroke-width%3D%221.5%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E')] bg-no-repeat bg-[right_14px_center]"
+            className="border border-white/12 w-full rounded-sm px-3.5 py-2.5 pr-9 font-sans text-sm text-white bg-white/6 outline-none focus:border-[#0E79BD] transition-colors duration-200 appearance-none bg-[url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%228%22%20viewBox%3D%220%200%2012%208%22%3E%3Cpath%20d%3D%22M1%201l5%205%205-5%22%20stroke%3D%22rgba(255%2C255%2C255%2C0.5)%22%20stroke-width%3D%221.5%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E')] bg-no-repeat bg-[right_14px_center]"
           >
             <option value="Cualquier habitacion" className="bg-dark text-white">Cualquier habitacion</option>
             <option value="Habitacion Clasica" className="bg-dark text-white">Habitacion Clasica</option>
