@@ -44,12 +44,12 @@ export function Gallery() {
     <>
       <section ref={sectionRef} id="gallery" className="bg-dark pt-0">
         {/* Intro */}
-        <div className="bg-navy px-5 md:px-8 lg:px-20 pt-12 md:pt-14 pb-10 md:pb-0 flex flex-col md:flex-row justify-between items-start md:items-end gap-5 md:gap-4">
-          <div>
+        <div className="bg-navy px-5 md:px-8 lg:px-20 pt-12 md:pt-14 py-10 md:py-10 flex flex-col md:flex-row justify-between items-start md:items-end gap-5 md:gap-4">
+          <div className=''>
             <span className="fade-in text-xs font-semibold tracking-[0.3em] uppercase text-[#0E79BD] mb-3 block">
               Tour Visual
             </span>
-            <h2 className="fade-in font-serif text-[clamp(1.9rem,3.2vw,2.7rem)] font-medium leading-[1.2] text-white">
+            <h2 className="fade-in font-serif text-[clamp(1.9rem,3.2vw,2.7rem)] font-medium leading-[1.2] text-white ">
               Espacios para <em className="italic text-[#0E79BD]">momentos</em>
               <br />
               extraordinarios
